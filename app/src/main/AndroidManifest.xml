@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".MyBroadCastReciver">
+
+            <intent-filter>
+
+                <action android:name="com.my.broadcast"></action>
+            </intent-filter>
+
+        </receiver>
     </application>
 
 </manifest>

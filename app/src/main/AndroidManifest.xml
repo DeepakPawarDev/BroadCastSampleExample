@@ -24,6 +24,11 @@
             </intent-filter>
 
         </receiver>
+
+
+        <activity android:name=".HomeActivity">
+
+        </activity>
     </application>
 
 </manifest>
